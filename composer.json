@@ -1,46 +1,46 @@
 {
-  "name": "ishotft/randomalliterations",
-  "description": ":description",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Andries Verbanck",
-      "email": "averbanck1992@gmail.com",
-      "homepage": "https://github.com/iShotFT"
-    }
-  ],
-  "homepage": "https://github.com/ishotft/randomalliterations",
-  "keywords": [
-    "Laravel",
-    "Random",
-    "Alliterations",
-    "Generator"
-  ],
-  "require": {
-    "illuminate/support": "~5"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~6.0",
-    "orchestra/testbench": "~3.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "iShotFT\\RandomAlliterations\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "iShotFT\\RandomAlliterations\\Tests\\": "tests"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "iShotFT\\RandomAlliterations\\RandomAlliterationsServiceProvider"
-      ],
-      "aliases": {
-        "RandomAlliterations": "iShotFT\\RandomAlliterations\\Facades\\RandomAlliterations"
-      }
-    }
-  }
+	"name": "ishotft/randomalliterations",
+	"description": ":description",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Andries Verbanck",
+			"email": "averbanck1992@gmail.com",
+			"homepage": "https://github.com/iShotFT"
+		}
+	],
+	"homepage": "https://github.com/ishotft/randomalliterations",
+	"keywords": [
+		"Laravel",
+		"Random",
+		"Alliterations",
+		"Generator"
+	],
+	"require": {
+		"illuminate/support": "~6"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~6.0",
+		"orchestra/testbench": "~3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"iShotFT\\RandomAlliterations\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"iShotFT\\RandomAlliterations\\Tests\\": "tests"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"iShotFT\\RandomAlliterations\\RandomAlliterationsServiceProvider"
+			],
+			"aliases": {
+				"RandomAlliterations": "iShotFT\\RandomAlliterations\\Facades\\RandomAlliterations"
+			}
+		}
+	}
 }
